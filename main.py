@@ -14,6 +14,7 @@ class FirstForm(QMainWindow):
         self.setWindowTitle('Главная форма')
 
         self.btn = QPushButton('Другая форма', self)
+        self.btn.setText('123')
         self.btn.resize(self.btn.sizeHint())
         self.btn.move(100, 100)
 
