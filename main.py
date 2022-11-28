@@ -15,7 +15,7 @@ class FirstForm(QMainWindow):
 
         self.btn = QPushButton('Другая форма', self)
         self.btn.resize(self.btn.sizeHint())
-        self.btn.move(100, 100)
+        self.btn.move(200, 100)
 
         self.btn.clicked.connect(self.open_second_form)
 
